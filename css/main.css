@@ -1,3 +1,22 @@
+/* -------------------------------------------------------------
+- Site Name: DESIGNA Studio
+- Version: 2.01 (August 2012)
+- Site URI: http://sylvainlafitte.com/designa/
+- Author: Sylvain Lafitte
+- Author URI: http://sylvainlafitte.com
+
+- Resources:
+	HTML5 Boilerplate (http://html5boilerplate.com/),
+	Normalise.css (http://necolas.github.com/normalize.css/), 
+	Proportional grids by Boon (http://builtbyboon.com),
+	CSS Tricks (css-tricks.com).
+------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------
+======	RESET
+------------------------------------------------------------- */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {display: block}
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -537,3 +556,35 @@ html[xmlns] .slides {display: block;}
 	p, h2, h3{orphans:3; widows:3}
 	h2, h3{page-break-after:avoid} 
 }
+ 
+ 
+
+/* -- IMAGE STYLES 
+
+	a img{
+	  border: none;
+	  }
+
+	img.left,img.center,img.right {
+	  padding: 4px;
+	  }
+
+	img.left {
+	  float: left;
+	  margin: 0 12px 5px 0;
+	  }
+
+	img.center {
+	  display: block;
+	  margin: 0 auto 5px auto;
+	  }
+
+	img.right {
+	  float: right;
+	  margin: 0 0 5px 12px;
+	  }
+------------------------------------------------------------- */
+ 
+/* -------------------------------------------------------------
+======	END
+------------------------------------------------------------- */
