@@ -284,7 +284,7 @@ header .arrow {color: #999; font-style: italic;}
 /* -- FOOTER
 ------------------------------------------------------------- */
 footer  { color: #555; margin-bottom: 7em; }
-footer nav ul { float: left; overflow: hidden; list-style:none; list-style-type: none;}
+footer nav ul { float: left; margin-left: 5em; overflow: hidden; list-style:none; list-style-type: none;}
 footer a {color: #999;}
 footer li { float: left; margin-right: 1em; padding-right: 1em; border-right: 1px solid #DDD; font-size: 0.8em; }
 footer li:last-child { margin-right: 0; padding-right: 0; border-right: none; }
