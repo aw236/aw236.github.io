@@ -29,6 +29,16 @@ a:hover { color: #000; text-decoration: underline; background: rgba(0, 0, 0, .02
 p{margin: 0 0 1em;}
 p:last-child {margin-bottom: 0;}
 
+#active a
+{
+display: block;
+color: #FFF;
+background-color: #600;
+width: 9em;
+padding: .2em .8em;
+text-decoration: none;
+}
+
 a:visited{opacity:0.9;}
 a:active, a:focus{position:relative;top:1px;}
 abbr[title]{border-bottom:1px dotted}
