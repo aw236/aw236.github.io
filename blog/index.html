@@ -2,6 +2,7 @@
 layout: default
 title: Blog
 ---
+<html>
 <body>
 	<header id="navtop">
 		<a href="index.html" class="logo fleft">
@@ -25,12 +26,10 @@ title: Blog
 	</header>
 
 	<div class="home-page main grid-wrap">
-
 		<header class="grid col-full">
 			<hr>
 			<p class="fleft">Blog</p>  
 		</header>  
-
 		<div class="grid col-full">
 			<ul class="posts">
 	  		{% for post in site.posts %}
@@ -38,11 +37,8 @@ title: Blog
 	  		{% endfor %}
 			</ul>
 		</div>
-
-
-
-
 	</div> <!--main-->
 	
 	<div class="container">
 </body>
+</html>
