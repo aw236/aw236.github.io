@@ -549,6 +549,6 @@ padding: .2em .8em;
 text-decoration: none;
 }
 
-body.home a.home, body.articles a.articles, body.blog a.blog {
+body.home a.home, body.contact a.contacts, body.blog a.blog {
 background-color: green;
 }
