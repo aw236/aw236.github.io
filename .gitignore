@@ -1,7 +1,5 @@
 _site/
 *.Rproj
-*.Rproj.user/
 *.Rmd
 *.pdf
 *.Rhistory
-.Rproj.user
