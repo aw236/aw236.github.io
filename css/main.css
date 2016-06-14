@@ -437,9 +437,15 @@ html[xmlns] .slides {display: block;}
 .tab_container > article { display:none; }
 .tab_container > article:first-child { display: block; }
 
+/* -------------------------------------------------------------
+======	LEFT COLUMN
+------------------------------------------------------------- */
 
-
-
+.leftcol {
+    width:170px;
+    height:auto;
+    float:left;
+ }
 
 
 /* -------------------------------------------------------------
