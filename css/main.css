@@ -1,6 +1,8 @@
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {display: block}
-audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+footer, header, hgroup, menu, nav, section {display: block} /* CSS display Property: Displays an element as a block element */
+audio, canvas, video { 	display: inline-block; 
+			*display: inline; /* Internet Explorer 7 and older hack, necessary since IE7 parses CSS slightly differently */
+			*zoom: 1; } /* normal zoom for IE7. zoom can be a percentage (_%) or a scale (1 = 100%) */
 audio:not([controls]) { display: none; }
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 :hover, :focus, :active { outline: none; }
@@ -10,16 +12,23 @@ html, button, input, select, textarea {
 	font-family: "Open sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
 	font-weight: 400; /* normal */
 	color: #555; 
-	font-smooth:always;
+	font-smooth: always;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
 
 body { margin: 0; font-size: 14px; line-height: 1.6; }
 
-a { color: #FF6600; font-weight: normal; /* Selects the active link. Color #FF6600 = orange.  */
-	cursor: pointer;  text-decoration: none;
-	transition:color 0.2s ease; -moz-transition:color 0.2s ease; -webkit-transition:color 0.2s ease; -o-transition:color 0.2s ease;}
+a { color: #FF6600; /* The <a> tag defines a hyperlink. Color #FF6600 = orange.  */
+	font-weight: normal; 
+	cursor: pointer;  /* CSS cursor property: the cursor is a pointer and indicates a link. */
+	text-decoration: none; /* CSS text decoration property: specifies decoration added to text (i.e. a hyperlink). {none, overline, overline, ...)  */
+	/* CSS transitions */
+	/* ease - specifies a transition effect with a slow start, then fast, then end slowly */
+	transition: color 0.2s ease; 
+	-moz-transition: color 0.2s ease; /* -moz: Firefox */
+	-webkit-transition: color 0.2s ease; /* -webkit: Chrome and Safari */
+	-o-transition: color 0.2s ease;} /* -o: Opera */
 
 /* Selects links on mouse over, with underline under the link text. */
 a:hover{color: #000; /* color: #000 = black */
@@ -78,20 +87,25 @@ td{vertical-align:top}
 ------------------------------------------------------------- */
 
 /* -- FORMS 
+Form elements are different types of input elements, checkboxes, radio buttons, submit buttons, and more.
+
+
+<textarea> defines a multi-line text input control. A text area can hold an unlimited number of characters, 
+and the text renders in a fixed-width font (usually Courier).
 ------------------------------------------------------------- */
 form{margin-top: 2em;}
 form li{margin-bottom: 1.5em;}
 label{display: block; margin-bottom:1em; font-weight: 700;}
-input, select, textarea {
-	border: 1px solid #DDD;
-	color: #777;
-	font-size: 1em;
-	padding: 1em;
-	width:60%;
+input, select, textarea { 
+	border: 	    1px solid #DDD;
+	color: 		    #777;
+	font-size: 	    1em;
+	padding: 	    1em;
+	width:		    60%;
 	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	-ms-box-sizing:     border-box;
+	box-sizing: 	    border-box;
 	*behavior: url(/js/boxsizing.htc); }
 textarea{padding: 1em; min-height:15em; height: auto; width: 100%; }
 input, textarea {
