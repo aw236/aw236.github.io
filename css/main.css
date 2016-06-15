@@ -1,38 +1,40 @@
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {display: block} /* CSS display Property: Displays an element as a block element */
 audio, canvas, video { 	display: inline-block; 
-			*display: inline; /* Internet Explorer 7 and older hack, necessary since IE7 parses CSS slightly differently */
-			*zoom: 1; } /* normal zoom for IE7. zoom can be a percentage (_%) or a scale (1 = 100%) */
+			*display: inline; 	/* Internet Explorer 7 and older hack, necessary since IE7 parses CSS slightly differently */
+			*zoom: 1; } 		/* normal zoom for IE7. zoom can be a percentage (_%) or a scale (1 = 100%) */
 audio:not([controls]) { display: none; }
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 :hover, :focus, :active { outline: none; }
 
-
+/* specifications for the html, button, input, select, and textarea elements */
 html, button, input, select, textarea {
-	font-family: "Open sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
-	font-weight: 400; /* normal */
-	color: #555; 
-	font-smooth: always;
+	font-family: "Open sans", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif; /* CSS font-family Property: family-name={"courier","arial"...}, generic-family={"serif","sans_serif",...}
+	font-weight: 400; 	/* ranges from 100 to 800. 400=normal, 700=bold. */
+	color: #555; 		/* gray */
+	font-smooth: always; 	/* controls the application of anti-aliasing when fonts are rendered: {auto, never, always} */
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
 
-body { margin: 0; font-size: 14px; line-height: 1.6; }
+body { margin: 0; 		/* margin property is a shorthand property for the following individual margin */
+	font-size: 14px; 	
+	line-height: 1.6; } 	/* line height is 160%.
 
-a { color: #FF6600; /* The <a> tag defines a hyperlink. Color #FF6600 = orange.  */
+a { color: #FF6600; 		/* The <a> tag defines a hyperlink. Color #FF6600 = orange.  */
 	font-weight: normal; 
-	cursor: pointer;  /* CSS cursor property: the cursor is a pointer and indicates a link. */
-	text-decoration: none; /* CSS text decoration property: specifies decoration added to text (i.e. a hyperlink). {none, overline, overline, ...)  */
+	cursor: pointer;  	/* CSS cursor property: the cursor is a pointer and indicates a link. */
+	text-decoration: none; 	/* CSS text decoration property: specifies decoration added to text (i.e. a hyperlink). {none, overline, overline, ...)  */
 	/* CSS transitions */
 	/* ease - specifies a transition effect with a slow start, then fast, then end slowly */
 	transition: color 0.2s ease; 
-	-moz-transition: color 0.2s ease; /* -moz: Firefox */
-	-webkit-transition: color 0.2s ease; /* -webkit: Chrome and Safari */
-	-o-transition: color 0.2s ease;} /* -o: Opera */
+	-moz-transition: color 0.2s ease; 	/* -moz: Firefox */
+	-webkit-transition: color 0.2s ease; 	/* -webkit: Chrome and Safari */
+	-o-transition: color 0.2s ease;} 	/* -o: Opera */
 
 /* Selects links on mouse over, with underline under the link text. */
-a:hover{color: #000; /* color: #000 = black */
-	text-decoration: underline; /* CSS property: text-decoration = {none, underline, overline, line-through} */
+a:hover{color: #000; 			  /* color: #000 = black */
+	text-decoration: underline; 	  /* CSS property: text-decoration = {none, underline, overline, line-through} */
 	background: rgba(0, 0, 0, .025);} /* RGBA Colors: an extension of RGB colors with an alpha channel specifying opacity of the object. */
 
 ::-moz-selection { background: #FF6600; color: #fff; text-shadow: none; }
