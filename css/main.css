@@ -17,11 +17,14 @@ html, button, input, select, textarea {
 
 body { margin: 0; font-size: 14px; line-height: 1.6; }
 
-a { color: #FF6600; font-weight: normal;
+a { color: #FF6600; font-weight: normal; /* Selects the active link. Color #FF6600 = orange.  */
 	cursor: pointer;  text-decoration: none;
 	transition:color 0.2s ease; -moz-transition:color 0.2s ease; -webkit-transition:color 0.2s ease; -o-transition:color 0.2s ease;}
 
-a:hover { color: #000; text-decoration: underline; background: rgba(0, 0, 0, .025);} 
+/* Selects links on mouse over, with underline under the link text. */
+a:hover{color: #000; /* color: #000 = black */
+	text-decoration: underline; /* CSS property: text-decoration = {none, underline, overline, line-through} */
+	background: rgba(0, 0, 0, .025);} /* RGBA Colors: an extension of RGB colors with an alpha channel specifying opacity of the object. */
 
 ::-moz-selection { background: #FF6600; color: #fff; text-shadow: none; }
 ::selection { background: #FF6600; color: #fff; text-shadow: none; }	
