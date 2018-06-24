@@ -214,7 +214,8 @@ body{width:100%; background: none;}
   margin-left: -3em; /* the same as your gutter */
   overflow: hidden;
   *zoom:1;}
-  .grid-wrap:before, .grid-wrap:after{content:""; display:table}
+  .grid-wrap:before, 
+  .grid-wrap:after{content:""; display:table}
   .grid-wrap:after{clear:both}
   
 .grid {
