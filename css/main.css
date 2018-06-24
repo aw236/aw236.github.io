@@ -248,9 +248,24 @@ body{width:100%; background: none;}
 .halfmtop{ margin-top: 1.5em;}
 .halfmbottom{ margin-bottom: 1.5em;}
 
-.fright, .fleft{display:block; overflow:hidden}
+/* Font classes: right and left aligned font */
+	/* 
+		CSS Style Reference
+		https://www.w3schools.com/cssref/
+
+		display:  block - Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width
+		overflow: visible|hidden|scroll|auto|initial|inherit; hidden: The overflow is clipped, and the rest of the content will be invisible
+		float: none|left|right|initial|inherit; specifies how an element should float. left: The element floats to the left of its container
+		font-weight: bold;
+	*/
+.fright, 
+.fleft{
+		display:     block; 
+		overflow:    hidden; 
+		font-weight: bold;
+		float:       left;
+	}
 .fright{float:right}
-.fleft{float:left}
 
 .alignleft{float: left;clear: left;margin: 0.38em 1.62em 0.38em 0;}
 .alignright {float: right;clear: right;margin: 0.38em 0 0.38em 1.62em;}
