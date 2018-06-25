@@ -304,6 +304,7 @@ nav a, menu a { text-decoration: none; color: #555; }
 .navactive { color: #FF6600 }
 .logo {margin-bottom: 3em;}
 .logo:hover {background: none;}
+.logo{width:200px}
 		
 		
 /* -- GENERAL 
