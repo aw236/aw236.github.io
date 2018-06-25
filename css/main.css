@@ -302,7 +302,7 @@ header#navtop { margin-bottom: 2em; clear: both; overflow: hidden; }
     header nav ul { float: left; overflow: hidden; padding: 0 3em 0 2em; border-left: 1px solid #ddd; line-height: 3em; list-style:none; }
 nav a, menu a { text-decoration: none; color: #555; }
 .navactive { color: #FF6600 }
-.logo {margin-bottom: 3em; width:200px;}
+.logo {margin-bottom: 3em; width:250px;}
 .logo:hover {background: none;}
 		
 		
