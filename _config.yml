@@ -1,5 +1,5 @@
 title: Andrew Young # your name (or website title) here
-logo: "/images/logo.jpeg?raw=true" # your photo (or logo) here
+logo: "/assets/img/logo.jpeg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <a href="https://openai.com/dall-e-2/"><em>Generated OpenAI's Dall-E. Identity theft is real :)</em></a> 
   <br><br>

@@ -46,6 +46,12 @@
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+## Contact
+
+--- 
+
+
 <!-- ### Natural Language Processing
 
 - [Project 1 Title](http://example.com/)
@@ -59,4 +65,4 @@
 
 
 
----
+--- -->
