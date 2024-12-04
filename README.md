@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
+Forthcoming.
 
 <!-- gif will show preview of my website -->
 <!-- <img src="images/demo.gif?raw=true"/> --> 
@@ -41,3 +41,4 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<!-- Reference: Minimal Jekyll theme for GitHub Pages. -->
